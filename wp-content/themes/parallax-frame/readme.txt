@@ -28,15 +28,7 @@ Footer Background
 1. supplementary-bg.jpg - https://pixabay.com/en/tunnel-underground-black-and-white-690513/
 
 Header Highlight & Featured Content
-1. highlight1-1920x800.jpg - https://pixabay.com/en/photography-photo-camera-olympus-407218/
-2. featured1-480x320.jpg - https://pixabay.com/en/guitar-country-girl-music-1139397/
-3. featured2-480x320.jpg - https://pixabay.com/en/cellphone-camera-phone-mobile-1082246/
-4. featured3-480x320.jpg - https://pixabay.com/en/animal-africa-wilderness-wildlife-1281695/
-5. featured4-480x320.jpg - https://pixabay.com/en/motorcycle-cross-motocross-1378051/
-6. featured5-480x320.jpg - https://pixabay.com/en/guitar-country-music-guitarist-1139398/
-7. featured6-480x320.jpg - https://pixabay.com/en/iphone-camera-picture-photography-926890/
-8. featured7-480x320.jpg - https://pixabay.com/en/africa-elephant-words-animal-466602/
-9. featured8-480x320.jpg - https://pixabay.com/en/sidecar-cross-motorcycle-motocross-1282928/
+
 10. bg-featured-content.jpg - https://pixabay.com/en/blur-shrubs-photographer-560819/
 
 Slider

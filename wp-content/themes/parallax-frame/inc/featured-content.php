@@ -50,8 +50,8 @@ function parallax_frame_featured_content_display() {
 			$classes .= ' ' . $content_select ;
 
 			if ( 'demo-featured-content' == $content_select ) {
-				$headline    = esc_html__( 'Featured Content', 'parallax-frame' );
-				$subheadline = esc_html__( 'Here you can showcase the x number of Featured Content. You can edit this Headline, Subheadline and Feaured Content from "Appearance -> Customize -> Featured Content Options".', 'parallax-frame' );
+				$headline    = esc_html__( 'Team Members', 'parallax-frame' );
+				$subheadline = esc_html__( '', 'parallax-frame' );
 			}
 
 			if ( '1' == $options['featured_content_position'] ) {
@@ -78,8 +78,8 @@ function parallax_frame_featured_content_display() {
 								$output .='
 								<!-- prev/next links -->
 								<div id="content-controls">
-									<div id="content-prev"></div>
-									<div id="content-next"></div>
+									<div id="content-prev" style="display: none"></div>
+									<div id="content-next" style="display: none"></div>
 								</div>
 								<div class="cycle-slideshow"
 								    data-cycle-log="false"
@@ -158,48 +158,47 @@ function parallax_frame_demo_content( $options ) {
 	<div class="featured_content_slider_wrap">
 		<article id="featured-post-1" class="post hentry post-demo">
 			<figure class="featured-content-image">
-				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured1-480x320.jpg" />
+				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Mila.jpg" />
 			</figure>
 			<div class="entry-container">
 				<header class="entry-header">
 					<h1 class="entry-title">
-						<a href="#" rel="bookmark">Photo Shoot</a>
-					</h1>
+						<a href="#" rel="bookmark">Milanda Wijekoon</a>					</h1>
 				</header>
 				<div class="entry-content">
-					A photo shoot is generally used in the fashion or glamour industry, whereby a model poses for a photographer at a studio or an outdoor location where multiple photos are taken.
+					
 				</div>
 			</div><!-- .entry-container -->
 		</article>
 
 		<article id="featured-post-2" class="post hentry post-demo">
 			<figure class="featured-content-image">
-				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured2-480x320.jpg" />
+				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Suda.jpg" />
 			</figure>
 			<div class="entry-container">
 				<header class="entry-header">
 					<h1 class="entry-title">
-						<a href="#" rel="bookmark">iPhoneography</a>
+						<a href="#" rel="bookmark">Suadaraka Gunarathne</a>
 					</h1>
 				</header>
 				<div class="entry-content">
-					iPhoneography is the art of creating photos with an iPhone. This is a style differs from all other forms of digital photography in that images are both shot and processed on the iOS device.
+					
 				</div>
 			</div><!-- .entry-container -->
 		</article>
 
 		<article id="featured-post-3" class="post hentry post-demo">
 			<figure class="featured-content-image">
-				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured3-480x320.jpg" />
+				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Asara.jpg" />
 			</figure>
 			<div class="entry-container">
 				<header class="entry-header">
 					<h1 class="entry-title">
-						<a href="#" rel="bookmark">Wildlife Photography</a>
+						<a href="#" rel="bookmark">Asara Kumarasena</a>
 					</h1>
 				</header>
 				<div class="entry-content">
-					Wildlife photography is a genre of photography concerned with documenting various forms of wildlife in their natural habitat. It is one of the more challenging forms of photography.
+					
 				</div>
 			</div><!-- .entry-container -->
 		</article>';
@@ -208,16 +207,16 @@ function parallax_frame_demo_content( $options ) {
 		$output .= '
 		<article id="featured-post-4" class="post hentry post-demo">
 			<figure class="featured-content-image">
-				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured4-480x320.jpg" />
+				<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Sajja.jpg" />
 			</figure>
 			<div class="entry-container">
 				<header class="entry-header">
 					<h1 class="entry-title">
-						<a href="#" rel="bookmark">Sports photography</a>
+						<a href="#" rel="bookmark">Sajith Perera</a>
 					</h1>
 				</header>
 				<div class="entry-content">
-					Sports photography refers to the genre of photography that covers all types of sports. In the majority of cases, professional sports photography is a branch of photojournalism.
+					
 				</div>
 			</div><!-- .entry-container -->
 		</article>';
@@ -229,32 +228,32 @@ function parallax_frame_demo_content( $options ) {
 		<div class="featured_content_slider_wrap">
 			<article id="featured-post-5" class="post hentry post-demo">
 				<figure class="featured-content-image">
-					<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured5-480x320.jpg" />
+					<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Dushan.jpg" />
 				</figure>
 				<div class="entry-container">
 					<header class="entry-header">
 						<h1 class="entry-title">
-							<a href="#" rel="bookmark">Photo Shoot</a>
+							<a href="#" rel="bookmark">Dushan Ranasinghe</a>
 						</h1>
 					</header>
 					<div class="entry-content">
-						A photo shoot is generally used in the fashion or glamour industry, whereby a model poses for a photographer at a studio or an outdoor location where multiple photos are taken.
+						
 					</div>
 				</div><!-- .entry-container -->
 			</article>
 
 			<article id="featured-post-6" class="post hentry post-demo">
 				<figure class="featured-content-image">
-					<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/featured6-480x320.jpg" />
+					<img class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/Mahee.jpg" />
 				</figure>
 				<div class="entry-container">
 					<header class="entry-header">
 						<h1 class="entry-title">
-							<a href="#" rel="bookmark">iPhoneography</a>
+							<a href="#" rel="bookmark">Mahee Gamage</a>
 						</h1>
 					</header>
 					<div class="entry-content">
-						iPhoneography is the art of creating photos with an iPhone. This is a style differs from all other forms of digital photography in that images are both shot and processed on the iOS device.
+						
 					</div>
 				</div><!-- .entry-container -->
 			</article>
@@ -270,7 +269,7 @@ function parallax_frame_demo_content( $options ) {
 						</h1>
 					</header>
 					<div class="entry-content">
-						Wildlife photography is a genre of photography concerned with documenting various forms of wildlife in their natural habitat. It is one of the more challenging forms of photography.
+						
 					</div>
 				</div><!-- .entry-container -->
 			</article>';
@@ -288,7 +287,7 @@ function parallax_frame_demo_content( $options ) {
 						</h1>
 					</header>
 					<div class="entry-content">
-						Sports photography refers to the genre of photography that covers all types of sports. In the majority of cases, professional sports photography is a branch of photojournalism.
+						
 					</div>
 				</div><!-- .entry-container -->
 			</article>';

@@ -1419,9 +1419,9 @@ function parallax_frame_footer_content() {
 		$output =  '
     	<div id="site-generator" class="two">
     		<div class="wrapper">
-    			<div id="footer-left-content" class="copyright">' . $parallax_frame_content['top'] . '</div>
+    			<div id="footer-left-content" class="copyright">MILA</div>
 
-    			<div id="footer-right-content" class="powered">' . $parallax_frame_content['bottom'] . '</div>
+    			<div id="footer-right-content" class="powered"></div>
 			</div><!-- .wrapper -->
 		</div><!-- #site-generator -->';
 

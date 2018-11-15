@@ -51,8 +51,8 @@ function parallax_frame_featured_slider() {
 							>
 
 						    <!-- prev/next links -->
-						    <div class="cycle-prev"></div>
-						    <div class="cycle-next"></div>
+						    <div class="cycle-prev" style="display: none"></div>
+						    <div class="cycle-next" style="display: none"></div>
 
 						    <!-- empty element for pager links -->
 	    					<div class="cycle-pager"></div>';
@@ -95,18 +95,18 @@ function parallax_frame_demo_slider( $options ) {
 	<article class="post demo-image-1 hentry slides displayblock">
 		<figure class="slider-image">
 			<a title="Slider Image 1" href="'. esc_url( home_url( '/' ) ) .'">
-				<img src="'.esc_url( get_template_directory_uri() ).'/images/gallery/slider1-1920x1080.jpg" class="wp-post-image" alt="Slider Image 1" title="Slider Image 1">
+				<img src="'.esc_url( get_template_directory_uri() ).'/images/gallery/slider1.jpg" class="wp-post-image" alt="Slider Image 1" title="Slider Image 1">
 			</a>
 		</figure>
 		<div class="entry-container">
 			<header class="entry-header">
 				<h1 class="entry-title">
-					<a title="Slider Image 1" href="#"><span>Slider Image 1</span></a>
+					<a title="Slider Image 1" href="#"><span>Team X</span></a>
 				</h1>
 				<div class="screen-reader-text"><span class="post-time">Posted on <time pubdate="" datetime="2014-08-16T10:56:23+00:00" class="entry-date updated">16 August, 2014</time></span><span class="post-author">By <span class="author vcard"><a rel="author" title="View all posts by Catch Themes" href="#" class="url fn n">Catch Themes</a></span></span></div>
 			</header>
 			<div class="entry-content">
-				<p>Slider Image 1 Content <span class="readmore"><a href="#" class="more-link">' . $options['excerpt_more_text'] . '</a></span></p>
+				<!--<p>Slider Image 1 Content <span class="readmore"><a href="#" class="more-link">' . $options['excerpt_more_text'] . '</a></span></p>-->
 			</div>
 		</div>
 	</article><!-- .slides -->
@@ -114,18 +114,18 @@ function parallax_frame_demo_slider( $options ) {
 	<article class="post demo-image-2 hentry slides displaynone">
 		<figure class="Slider Image 2">
 			<a title="Slider Image 2" href="'. esc_url( home_url( '/' ) ) .'">
-				<img src="'. trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/slider2-1920x1080.jpg" class="wp-post-image" alt="Slider Image 2" title="Slider Image 2">
+				<img src="'. trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/slider2.jpg" class="wp-post-image" alt="Slider Image 2" title="Slider Image 2">
 			</a>
 		</figure>
 		<div class="entry-container">
 			<header class="entry-header">
 				<h1 class="entry-title">
-					<a title="Slider Image 2" href="#"><span>Slider Image 2</span></a>
+					<a title="Slider Image 2" href="#"><span>Team X</span></a>
 				</h1>
 				<div class="screen-reader-text"><span class="post-time">Posted on <time pubdate="" datetime="2014-08-16T10:56:23+00:00" class="entry-date updated">16 August, 2014</time></span><span class="post-author">By <span class="author vcard"><a rel="author" title="View all posts by Catch Themes" href="#" class="url fn n">Catch Themes</a></span></span></div>
 			</header>
 			<div class="entry-content">
-				<p>Slider Image 2 Content <span class="readmore"><a href="#" class="more-link">' . $options['excerpt_more_text'] . '</a></span></p>
+			<!--	<p>Slider Image 2 Content <span class="readmore"><a href="#" class="more-link">' . $options['excerpt_more_text'] . '</a></span></p> -->
 			</div>
 		</div>
 	</article><!-- .slides --> ';

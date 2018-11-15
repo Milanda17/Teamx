@@ -114,7 +114,7 @@ function parallax_frame_demo_logo_slider( $options ) {
 	<article id="featured-post-1" class="post hentry post-demo">
 			<figure class="featured-content-image">
 				<a href="#" rel="bookmark">
-					<img alt="Demo Logo One" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/logo1.png" />
+					<img alt="Demo Logo One" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/.net.png" />
 				</a>
 			</figure>
 	</article>
@@ -122,7 +122,7 @@ function parallax_frame_demo_logo_slider( $options ) {
 	<article id="featured-post-2" class="post hentry post-demo">
 		<figure class="featured-content-image">
 			<a href="#" rel="bookmark">
-				<img alt="Demo Logo Two" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/logo2.png" />
+				<img alt="Demo Logo Two" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/laravel.png" />
 			</a>
 		</figure>
 	</article>
@@ -130,7 +130,7 @@ function parallax_frame_demo_logo_slider( $options ) {
 	<article id="featured-post-3" class="post hentry post-demo">
 		<figure class="featured-content-image">
 			<a href="#" rel="bookmark">
-				<img alt="Demo Logo Three" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/logo3.png" />
+				<img alt="Demo Logo Three" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/springboot.png" />
 			</a>
 		</figure>
 	</article>
@@ -138,7 +138,7 @@ function parallax_frame_demo_logo_slider( $options ) {
 	<article id="featured-post-4" class="post hentry post-demo">
 		<figure class="featured-content-image">
 			<a href="#" rel="bookmark">
-				<img alt="Demo Logo Four" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/logo4.png" />
+				<img alt="Demo Logo Four" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/wordpress.png" />
 			</a>
 		</figure>
 	</article>
@@ -146,7 +146,7 @@ function parallax_frame_demo_logo_slider( $options ) {
 	<article id="featured-post-5" class="post hentry post-demo">
 		<figure class="featured-content-image">
 			<a href="#" rel="bookmark">
-				<img alt="Demo Logo Five" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/logo5.png" />
+				<img alt="Demo Logo Five" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/c.png" />
 			</a>
 		</figure>
 	</article>';

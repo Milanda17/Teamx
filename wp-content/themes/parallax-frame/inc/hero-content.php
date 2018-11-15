@@ -77,21 +77,34 @@ function parallax_frame_demo_hero_content() {
 	<article class="post-11 page type-page status-publish has-post-thumbnail hentry" id="post-11">
 		<figure class="featured-image">
 	    	<a href="#" rel="bookmark">
-	        	<img width="600" height="400" alt="" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/about-600x400.jpg">
+	        	<img width="600" height="400" alt="" class="wp-post-image" src="'.trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/AboutHome.jpg">
 	        </a>
 		</figure>
 		<div class="entry-container">
 			<header class="entry-header">
-				<h1 class="entry-title">About</h1>
+				<h2 class="entry-title">Who we are</h2>
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+				<p class="text-primary" >This site is using the standard WordPress Theme Unit Test Data for <strong>content</strong>.</p>
+				<p>The Theme Unit Test is a series of posts and pages that match up with a checklist on the WordPress codex.</p>
+				
+			</div><!-- .entry-content -->
+		</div><!-- .entry-container -->
+		
+		
+		<div class="entry-container">
+			<header class="entry-header">
+				<h2 class="entry-title">What we do</h2>
 			</header><!-- .entry-header -->
 
 			<div class="entry-content">
 				<p>This site is using the standard WordPress Theme Unit Test Data for <strong>content</strong>.</p>
 				<p>The Theme Unit Test is a series of posts and pages that match up with a checklist on the WordPress codex.</p>
-				<p>This site is using the standard WordPress Theme Unit Test Data for content. The Theme Unit Test is a series of posts and pages that match up with a checklist on the WordPress codex.</p>
-				<p>You can use the data and checklist together to test your theme.</p>
+				
 			</div><!-- .entry-content -->
 		</div><!-- .entry-container -->
+		
 	</article>';
 }
 endif; // parallax_frame_demo_hero_content
